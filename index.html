@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESC - Главная</title>
+
+
+    <link rel="stylesheet" href="assets/css/style.css?v=5">
+    <link rel="stylesheet" href="assets/css/responsive.css?v=8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Neucha&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper header">
+            <a href="/" class="logo">
+                <img src="./assets/img/main/logo.svg" alt="Логотип">
+            </a>
+
+            <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="site-navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <div class="header_navigation" id="site-navigation">
+            <ul class="menu">
+                <li><a class="is-active" href="#services">Услуги</a></li>
+                <li><a href="#projects_slider">Проекты</a></li>
+                <li><a href="#process">Процесс</a></li>
+                <li><a href="#about">О студии</a></li>
+            </ul>
+
+            <a href="#contact" class="header_btn">
+                <span>Обсудить проект</span>
+
+                <img src="./assets/img/icon/arrow_header_btn.svg" alt="">
+
+                <svg class="header_btn-border" viewBox="0 0 260 60" preserveAspectRatio="none" aria-hidden="true">
+                    <!-- Кадр 1 -->
+                    <g class="sketch-frame sketch-frame--1">
+                        <path
+                            class="sketch-line"
+                            d="M4 3.8
+                            L24 2.6 L47 3.5 L69 2.8 L93 3.7
+                            L118 2.9 L142 3.4 L168 2.7 L192 3.5
+                            L216 2.9 L238 3.6 L256 3
+                            L256.8 17 L256.1 31 L257 45 L256.2 56.5
+                            L234 57.1 L211 56.4 L187 57.2 L162 56.5
+                            L138 57.3 L113 56.6 L89 57.2 L64 56.4
+                            L42 57.1 L21 56.5 L3.4 57
+                            L3.8 44 L3 31 L3.7 17 Z"
+                        />
+
+                        <path
+                            class="sketch-shadow"
+                            d="M8 5.4
+                            C55 4.1 90 5.8 132 4.7
+                            C176 3.8 217 5.2 252 4.6
+                            M254.4 9
+                            C253.7 24 255.1 41 254.3 53
+                            M249 55
+                            C205 54.3 170 55.9 126 54.8
+                            C83 53.9 46 55.6 8 54.9"
+                        />
+                    </g>
+
+                    <!-- Кадр 2 -->
+                    <g class="sketch-frame sketch-frame--2">
+                        <path
+                            class="sketch-line"
+                            d="M3.2 3
+                            L22 3.7 L45 2.7 L67 3.8 L91 2.5
+                            L116 3.5 L140 2.8 L165 3.8 L190 2.6
+                            L214 3.7 L237 2.8 L257 3.5
+                            L256.2 16 L257 29 L256.3 43 L257 57.2
+                            L235 56.3 L212 57.4 L188 56.5 L164 57.3
+                            L140 56.4 L116 57.4 L91 56.5 L67 57.3
+                            L44 56.4 L21 57.4 L2.8 56.6
+                            L3.5 43 L2.7 30 L3.5 16 Z"
+                        />
+
+                        <path
+                            class="sketch-shadow"
+                            d="M7 4.8
+                            C48 5.6 91 3.8 130 5.1
+                            C175 6 216 4 253 5
+                            M254.5 10
+                            C255.3 25 253.8 39 254.8 52
+                            M250 54.6
+                            C211 55.8 171 53.7 129 55
+                            C88 56.1 47 54.1 7 55.2"
+                        />
+                    </g>
+
+                    <!-- Кадр 3 -->
+                    <g class="sketch-frame sketch-frame--3">
+                        <path
+                            class="sketch-line"
+                            d="M3.8 3.5
+                            L25 2.8 L48 3.9 L71 2.6 L95 3.4
+                            L119 2.5 L143 3.8 L167 2.9 L191 3.7
+                            L215 2.5 L239 3.8 L256.4 2.7
+                            L257 15 L256 28 L257.1 41 L256.4 56.7
+                            L236 57.5 L213 56.2 L189 57.4 L165 56.3
+                            L141 57.5 L117 56.3 L93 57.4 L69 56.2
+                            L45 57.5 L22 56.3 L3.1 57.2
+                            L3.9 44 L2.8 32 L3.7 18 Z"
+                        />
+
+                        <path
+                            class="sketch-shadow"
+                            d="M8 5.2
+                            C49 3.9 89 5.9 130 4.5
+                            C171 3.5 214 5.8 252 4.4
+                            M254.2 9
+                            C253.5 24 255.2 40 254.1 52
+                            M250 54.8
+                            C209 53.8 170 56 128 54.6
+                            C86 53.6 47 55.8 8 54.5"
+                        />
+                    </g>
+                </svg>
+            </a>
+
+            <div class="header-social" aria-label="Мы в интернете">
+                <p class="header-social__title">Мы в интернете</p>
+                <div class="header-social__links">
+                    <a href="mailto:info@desc-studio.ru">info@desc-studio.ru <span>↗</span></a>
+                    <a href="#">Telegram <span>↗</span></a>
+                    <a href="#">ВКонтакте <span>↗</span></a>
+                    <a href="#">MAX <span>↗</span></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </header>
+    <section class="main" id="services">
+        <div class="wrapper main_block">
+            <h1>Сайты для <br> бизнеса.</h1>
+            <p class="comment">Здесь начинается идея</p>
+            <span class="h1">C характером</span>
+            <a href="" class="blue_btn">
+                Обсудить проект
+            </a>
+            <img class="calibri_main" src="./assets/img/main/calibri_main.png" alt="">
+
+
+        </div>
+    </section>
+    <section id="main_project" class="main_project">
+        <a class="more_project" href="#projects_slider">
+            <span>Смотреть проекты</span>
+
+            <img src="./assets/img/icon/arrow_main_project.png" alt="">
+        </a>
+
+        <div id="projects_slider" class="projects_slider">
+            <div class="projects_wrapper wrapper">
+                <article class="project_info">
+                    <div class="project_counter" aria-live="polite">
+                        <span class="project_counter-current">
+                        01
+                    </span>
+
+                        <span class="project_counter-line"></span>
+
+                        <span class="project_counter-total">
+                        04
+                    </span>
+                    </div>
+
+                    <div class="project_title-wrapper">
+                        <img class="project_logo" src="" alt="" hidden>
+
+                        <h2 class="project_title">
+                            NORDAR
+                        </h2>
+                    </div>
+
+                    <p class="project_description"></p>
+
+                    <div class="project_tags">
+                        <span class="project_type"></span>
+                        <span class="project_year"></span>
+                    </div>
+
+                    <div class="project_stages" role="tablist" aria-label="Этапы проекта"></div>
+
+                    <a class="project_link" href="#">
+                        <span>Смотреть проект</span>
+                        <span class="project_link-arrow">→</span>
+                    </a>
+                </article>
+
+                <div class="project_visuals">
+                    <!-- Основная карточка -->
+                    <div class="project_card project_card--main">
+                        <img class="project_image project_image--current" src="" alt="">
+
+                        <img class="project_image project_image--incoming" src="" alt="">
+                    </div>
+
+                    <!-- Следующая карточка -->
+                    <div class="project_card project_card--next">
+                        <img class="project_image project_image--current" src="" alt="">
+
+                        <img class="project_image project_image--incoming" src="" alt="">
+                    </div>
+
+                    <button class="project_next-button" type="button" aria-label="Следующий проект">
+                    <img
+                        class="project_next-icon"
+                        src="./assets/img/icon/arrow_project_next.svg"
+                        alt=""
+                    >
+
+                    <img
+                        class="project_restart-icon"
+                        src="./assets/img/icon/restart_project.svg"
+                        alt=""
+                    >
+                </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="anatomy">
+        <div class="wrapper anatomy__wrapper">
+
+            <div class="anatomy__intro">
+                <h2 class="anatomy__title">
+                    АНАТОМИЯ РАБОЧЕГО САЙТА
+                </h2>
+
+                <p class="anatomy__subtitle">
+                    Не просто рисуем,<br> а собираем систему,<br> которая работает<br> на бизнес.
+                </p>
+            </div>
+
+
+            <div class="anatomy__diagram">
+
+                <!-- Центральный макет -->
+                <div class="anatomy__mockups">
+
+                    <img class="anatomy__mockup anatomy__mockup--header" src="./assets/img/anatomy/01-structure-header.png" alt="">
+
+                    <img class="anatomy__mockup anatomy__mockup--hero" src="./assets/img/anatomy/02-design-hero.png" alt="">
+
+                    <img class="anatomy__mockup anatomy__mockup--content" src="./assets/img/anatomy/03-texts-content-management.png" alt="">
+
+                    <img class="anatomy__mockup anatomy__mockup--seo" src="./assets/img/anatomy/04-seo-lead-from-search.png" alt="">
+
+                    <img class="anatomy__mockup anatomy__mockup--support" src="./assets/img/anatomy/05-support-monitoring.png" alt="">
+
+                </div>
+
+
+                <!-- Подписи -->
+                <div class="anatomy__notes">
+
+                    <div class="anatomy__note anatomy__note--structure">
+                        <strong>Структура</strong>
+                        <span>Логика и<br>пользовательский<br>путь</span>
+                    </div>
+
+                    <div class="anatomy__note anatomy__note--texts">
+                        <strong>Тексты</strong>
+                        <span>Сильные смыслы,<br>которые продают</span>
+                    </div>
+
+                    <div class="anatomy__note anatomy__note--seo">
+                        <strong>SEO</strong>
+                        <span>Рост видимости<br>и заявок из поиска</span>
+                    </div>
+
+                    <div class="anatomy__note anatomy__note--design">
+                        <strong>Дизайн</strong>
+                        <span>Характер бренда<br>в каждой детали</span>
+                    </div>
+
+                    <div class="anatomy__note anatomy__note--wordpress">
+                        <strong>WordPress</strong>
+                        <span>Гибкая разработка<br>и удобное управление</span>
+                    </div>
+
+                    <div class="anatomy__note anatomy__note--support">
+                        <strong>Поддержка</strong>
+                        <span>Техническая помощь<br>и развитие сайта</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Стрелки.
+                 Лучше экспортировать именно твои Vector 9-14 из Figma в SVG -->
+                <img class="anatomy__arrow anatomy__arrow--structure" src="./assets/img/anatomy/arrow-structure.svg" alt="">
+
+                <img class="anatomy__arrow anatomy__arrow--texts" src="./assets/img/anatomy/arrow-texts.svg" alt="">
+
+                <img class="anatomy__arrow anatomy__arrow--seo" src="./assets/img/anatomy/arrow-seo.svg" alt="">
+
+                <img class="anatomy__arrow anatomy__arrow--design" src="./assets/img/anatomy/arrow-design.svg" alt="">
+
+                <img class="anatomy__arrow anatomy__arrow--wordpress" src="./assets/img/anatomy/arrow-wordpress.svg" alt="">
+
+                <img class="anatomy__arrow anatomy__arrow--support" src="./assets/img/anatomy/arrow-support.svg" alt="">
+
+            </div>
+
+            <div class="anatomy__mobile-list" aria-label="Состав рабочего сайта">
+                <article class="anatomy-mobile-card">
+                    <h3>Структура</h3>
+                    <img src="./assets/img/anatomy/mobile/structure.webp" alt="Схема структуры и пользовательского пути сайта">
+                    <p>Логика и пользовательский путь</p>
+                </article>
+
+                <article class="anatomy-mobile-card">
+                    <h3>Дизайн</h3>
+                    <img src="./assets/img/anatomy/mobile/design.webp" alt="Адаптивный дизайн сайта на компьютере и телефоне">
+                    <p>Характер бренда в каждой детали</p>
+                </article>
+
+                <article class="anatomy-mobile-card">
+                    <h3>Тексты</h3>
+                    <img src="./assets/img/anatomy/mobile/texts.webp" alt="Редактирование текстов и смыслового контента сайта">
+                    <p>Сильные смыслы, которые продают</p>
+                </article>
+
+                <article class="anatomy-mobile-card">
+                    <h3>WordPress</h3>
+                    <img src="./assets/img/anatomy/mobile/wordpress.webp" alt="Управление содержимым сайта в системе WordPress">
+                    <p>Гибкая разработка и удобное управление</p>
+                </article>
+
+                <article class="anatomy-mobile-card">
+                    <h3>SEO</h3>
+                    <img src="./assets/img/anatomy/mobile/seo.webp" alt="Продвижение сайта и рост позиций в поиске">
+                    <p>Рост видимости и заявок из поиска</p>
+                </article>
+
+                <article class="anatomy-mobile-card">
+                    <h3>Поддержка</h3>
+                    <img src="./assets/img/anatomy/mobile/support.webp" alt="Мониторинг, обновление и техническая поддержка сайта">
+                    <p>Техническая помощь и развитие сайта</p>
+                </article>
+            </div>
+
+        </div>
+    </section>
+    <section class="process_img_job">
+        <div class="process_img_job_box">
+            <img src="./assets/img/main/01-structure-and-research.png" alt="">
+        </div>
+        <div class="process_img_job_box">
+            <img src="./assets/img/main/02-interface-design.png" alt="">
+        </div>
+        <div class="process_img_job_box">
+            <img src="./assets/img/main/03-development-and-code.png" alt="">
+        </div>
+        <div class="process_img_job_box">
+            <img src="./assets/img/main/04-testing-analytics-launch.png" alt="">
+        </div>
+        <div class="process_img_job_text">
+            <span>Работаем руками и головой</span>
+        </div>
+    </section>
+    <section class="process-section" id="process" data-audio="./assets/audio/process-review.mp3">
+        <svg class="process-svg-defs" aria-hidden="true">
+    <defs>
+        <g id="process-border-1">
+            <path
+                class="process-sketch-main"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 4 L42 3 L78 4 L114 3 L150 4 L186 3 L215 4 L216 45 L215 88 L216 130 L215 176 L216 218 L215 261 L177 260 L140 261 L105 260 L68 261 L33 260 L4 261 L5 218 L4 176 L5 132 L4 89 L5 45 Z"
+            />
+
+            <path
+                class="process-sketch-shadow"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8 7 C58 4 111 8 161 6 C182 5 199 7 211 6 M212 10 C214 75 210 138 213 201 C213 227 212 243 211 256 M207 257 C156 255 106 259 54 257 C33 256 19 258 9 256"
+            />
+        </g>
+
+        <g id="process-border-2">
+            <path
+                class="process-sketch-main"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3 5 L40 4 L76 5 L113 3 L149 5 L184 4 L216 5 L215 46 L216 88 L215 132 L216 176 L215 218 L216 260 L179 261 L141 259 L104 261 L68 260 L33 261 L4 260 L3 219 L5 176 L3 132 L5 88 L3 46 Z"
+            />
+
+            <path
+                class="process-sketch-shadow"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8 8 C61 6 111 5 161 7 C180 8 198 5 211 7 M211 11 C210 73 214 138 211 200 C210 224 213 242 210 255 M206 256 C157 259 106 255 54 258 C33 259 20 256 9 257"
+            />
+        </g>
+
+        <g id="process-border-3">
+            <path
+                class="process-sketch-main"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M5 3 L41 5 L77 3 L114 5 L150 3 L185 5 L215 3 L217 46 L214 88 L217 131 L214 175 L217 218 L214 262 L177 259 L141 262 L104 259 L68 262 L32 259 L5 262 L4 219 L6 176 L3 132 L6 89 L4 46 Z"
+            />
+
+            <path
+                class="process-sketch-shadow"
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 7 C58 8 109 4 160 7 C184 8 199 6 211 7 M212 11 C214 74 210 136 213 201 C214 226 210 243 211 256 M207 257 C158 254 107 259 54 256 C32 255 19 258 9 256"
+            />
+        </g>
+    </defs>
+</svg>
+
+        <div class="wrapper process-wrapper">
+
+            <div class="process-main">
+
+                <div class="process-heading">
+                    <h2>
+                        НАШ ПРОЦЕСС БЕЗ ВОДЫ
+                    </h2>
+
+                    <svg class="process-heading__underline" viewBox="0 0 272 58" preserveAspectRatio="none" aria-hidden="true">
+                    <path
+                        d="M4 49C68 25 130 13 267 4"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="3"
+                        stroke-linecap="round"
+                    />
+                </svg>
+
+                    <img class="process-heading__arrow" src="./assets/img/process/arrow-title.svg" alt="">
+                </div>
+
+                <div class="process-flow">
+
+                    <article class="process-card">
+                        <span class="process-card__number">01</span>
+
+                        <div class="process-card__image">
+                            <img src="./assets/img/process/01-dialogue.png" alt="">
+                        </div>
+
+                        <div class="process-card__content">
+                            <h3>Поняли задачу</h3>
+                            <p>Слушаем, задаем вопросы, фиксируем суть.</p>
+                        </div>
+
+                        <svg class="process-card__border" viewBox="0 0 219 265" preserveAspectRatio="none" aria-hidden="true">
+                        <use
+                            href="#process-border-1"
+                            class="process-sketch-frame process-sketch-frame--1"
+                        ></use>
+                        <use
+                            href="#process-border-2"
+                            class="process-sketch-frame process-sketch-frame--2"
+                        ></use>
+                        <use
+                            href="#process-border-3"
+                            class="process-sketch-frame process-sketch-frame--3"
+                        ></use>
+                    </svg>
+                    </article>
+
+                    <div class="process-flow__arrow process-flow__arrow--1">
+                        <img src="./assets/img/process/arrow-01.svg" alt="">
+                    </div>
+
+                    <article class="process-card">
+                        <span class="process-card__number">02</span>
+
+                        <div class="process-card__image">
+                            <img src="./assets/img/process/02-website-structure.png" alt="">
+                        </div>
+
+                        <div class="process-card__content">
+                            <h3>Собрали структуру</h3>
+                            <p>Продумываем логику и пользовательский путь.</p>
+                        </div>
+
+                        <svg class="process-card__border" viewBox="0 0 219 265" preserveAspectRatio="none" aria-hidden="true">
+                        <use
+                            href="#process-border-1"
+                            class="process-sketch-frame process-sketch-frame--1"
+                        ></use>
+                        <use
+                            href="#process-border-2"
+                            class="process-sketch-frame process-sketch-frame--2"
+                        ></use>
+                        <use
+                            href="#process-border-3"
+                            class="process-sketch-frame process-sketch-frame--3"
+                        ></use>
+                    </svg>
+                    </article>
+
+                    <div class="process-flow__arrow process-flow__arrow--2">
+                        <img src="./assets/img/process/arrow-02.svg" alt="">
+                    </div>
+
+                    <article class="process-card">
+                        <span class="process-card__number">03</span>
+
+                        <div class="process-card__image">
+                            <img src="./assets/img/process/03-development-window.png" alt="">
+                        </div>
+
+                        <div class="process-card__content">
+                            <h3>Спроектировали и написали</h3>
+                            <p>Делаем дизайн, верстаем, настраиваем и тестируем.</p>
+                        </div>
+
+                        <svg class="process-card__border" viewBox="0 0 219 265" preserveAspectRatio="none" aria-hidden="true">
+                        <use
+                            href="#process-border-1"
+                            class="process-sketch-frame process-sketch-frame--1"
+                        ></use>
+                        <use
+                            href="#process-border-2"
+                            class="process-sketch-frame process-sketch-frame--2"
+                        ></use>
+                        <use
+                            href="#process-border-3"
+                            class="process-sketch-frame process-sketch-frame--3"
+                        ></use>
+                    </svg>
+                    </article>
+
+                    <div class="process-flow__arrow process-flow__arrow--3">
+                        <img src="./assets/img/process/arrow-03.svg" alt="">
+                    </div>
+
+                    <article class="process-card">
+                        <span class="process-card__number">04</span>
+
+                        <div class="process-card__image">
+                            <img src="./assets/img/process/04-rocket-launch.png" alt="">
+                        </div>
+
+                        <div class="process-card__content">
+                            <h3>Запустили и развиваем</h3>
+                            <p>Анализируем, улучшаем, растим результат.</p>
+                        </div>
+
+                        <svg class="process-card__border" viewBox="0 0 219 265" preserveAspectRatio="none" aria-hidden="true">
+                        <use
+                            href="#process-border-1"
+                            class="process-sketch-frame process-sketch-frame--1"
+                        ></use>
+                        <use
+                            href="#process-border-2"
+                            class="process-sketch-frame process-sketch-frame--2"
+                        ></use>
+                        <use
+                            href="#process-border-3"
+                            class="process-sketch-frame process-sketch-frame--3"
+                        ></use>
+                    </svg>
+                    </article>
+
+                    <img class="process-flow__final-arrow" src="./assets/img/process/arrow-04.svg" alt="">
+
+                </div>
+
+            </div>
+
+            <div class="process-proof">
+
+                <div class="process-bird">
+                    <img src="./assets/img/process/bird-on-prototype-final.png" alt="">
+                </div>
+
+                <div class="process-voice">
+
+                    <div class="process-voice__body">
+
+                        <div class="process-voice__avatar">
+                            <img src="./assets/img/process/avatar.jpg" alt="">
+                        </div>
+
+                        <div class="process-voice__content">
+
+                            <p class="process-voice__author">
+                                Мария, Маркетолог<br> Компания Nordar
+                            </p>
+
+                            <div class="process-voice__player">
+
+                                <button class="process-voice__play" type="button" aria-label="Воспроизвести голосовое сообщение">
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+
+                            <path
+                                class="process-voice__play-icon"
+                                d="M8 5.5L18 12L8 18.5V5.5Z"
+                            />
+
+                            <g class="process-voice__pause-icon">
+                                <rect
+                                    x="7"
+                                    y="6"
+                                    width="3.5"
+                                    height="12"
+                                    rx="1"
+                                ></rect>
+
+                                <rect
+                                    x="13.5"
+                                    y="6"
+                                    width="3.5"
+                                    height="12"
+                                    rx="1"
+                                ></rect>
+                            </g>
+
+                        </svg>
+                    </button>
+
+                                <div class="process-voice__wave"></div>
+
+                                <span class="process-voice__time">
+                        00:00
+                    </span>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <p class="process-voice__quote">
+                        «Нас услышали и сделали действительно<br> то, что мы хотели увидеть»
+                    </p>
+
+                </div>
+
+                <div class="process-proof__message">
+
+                    <img class="process-proof__arrow" src="./assets/img/process/arrow-message.svg" alt="">
+
+                    <div class="process-proof__message-content">
+
+                        <p class="process-proof__text">
+                            Вот ради таких<br> сообщений
+                            <br> мы и работаем.
+                        </p>
+
+                        <img class="process-proof__heart" src="./assets/img/process/08-heart-vermilion.png" alt="">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="process-cta" id="contact">
+
+            <div class="wrapper process-cta__inner">
+
+                <h2 class="process-cta__title">
+                    РАССКАЖИТЕ,<br> ЧТО НУЖНО СОЗДАТЬ
+                </h2>
+
+                <svg class="process-cta__underline" viewBox="0 0 481 30" preserveAspectRatio="none" aria-hidden="true">
+                <path
+                    d="M4 20C107 10 246 12 477 5"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="6"
+                    stroke-linecap="round"
+                />
+
+                <path
+                    d="M37 27C144 17 273 18 411 11"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    opacity=".65"
+                />
+            </svg>
+
+                <a href="#contact" class="process-cta__button">
+                НАЧАТЬ ПРОЕКТ
+            </a>
+
+            </div>
+
+        </div>
+
+    </section>
+    <footer class="site-footer" id="about">
+        <div class="wrapper footer-wrapper">
+
+            <div class="footer-brand">
+                <a href="/" class="footer-logo">
+                    <span class="footer-logo__desc">DESC</span>
+                    <span class="footer-logo__slash">/</span>
+                    <span class="footer-logo__studio">STUDIO</span>
+                </a>
+
+                <p class="footer-brand__text">
+                    Сайты для бизнеса<br> с характером.
+                </p>
+            </div>
+
+            <div class="footer-social">
+                <h3 class="footer-title">Мы в интернете</h3>
+
+                <nav class="footer-social__list">
+                    <a href="mailto:info@desc-studio.ru" class="footer-social__link">
+                        <span class="footer-icon">
+                       <svg width="41" height="28" viewBox="0 0 41 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1.5 1.5H38.8369V26.1066H1.81049L1.5 1.5Z" stroke="#EFE7D8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1.50876 2.66451L19.2069 17.4906L37.1379 2.43164M1.35352 25.0977L14.5962 13.6281M37.2156 25.2529L23.8061 13.6281" stroke="#EFE7D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path opacity="0.34" d="M2.66356 1.11144C13.298 0.645699 26.9597 0.800947 37.7494 1.18906M2.58594 26.5719C14.4623 26.8824 25.9506 26.9601 37.827 26.4943" stroke="#EFE7D8" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+                    </span>
+
+                        <span>info@desc-studio.ru</span>
+                    </a>
+
+                    <a href="#" class="footer-social__link">
+                        <span class="footer-icon">
+                        <svg width="31" height="28" viewBox="0 0 31 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 12.5688L29.5642 1L22.7064 27L14.0596 19.4862L8.99083 23.8394L9.64679 15.133L1 12.5688Z" stroke="#EFE7D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.70703 15.133L24.5557 5.71094L14.0602 19.4862M14.1199 19.5458L9.70703 22.5" stroke="#EFE7D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path opacity="0.35" d="M1.65625 12.8672L9.17001 15.7296M22.9452 26.3443L14.5966 19.1883" stroke="#EFE7D8" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+                    </span>
+
+                        <span>Telegram</span>
+                    </a>
+
+                    <a href="#" class="footer-social__link">
+                        <span class="footer-icon">
+                        <svg width="41" height="28" viewBox="0 0 41 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1.0957C2.71416 10.4284 7.19004 20.5229 14.1419 26.1415C16.6179 28.1414 20.0463 26.4272 20.0463 23.2846V1.0957" stroke="#EFE7D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20.7129 16.0466L34.5214 1M24.9031 11.8564L39.8544 26.8077" stroke="#EFE7D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+                    </span>
+
+                        <span>ВКонтакте</span>
+                    </a>
+
+                    <a href="#" class="footer-social__link">
+                        <span class="footer-icon">
+                       <svg width="49" height="28" viewBox="0 0 49 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 26.9998V1.09774L10.2856 15.2706L19.4735 1V26.9998" stroke="#EFE7D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.2852 26.9997L29.3453 1.09766L35.6986 26.9997M25.4355 18.3005H33.646" stroke="#EFE7D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M38.045 1.58594L47.2329 26.9993M47.0374 1.78143L37.9473 26.9993" stroke="#EFE7D8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+                    </span>
+
+                        <span>MAX</span>
+                    </a>
+                </nav>
+            </div>
+
+            <div class="footer-navigation">
+                <h3 class="footer-title">Погулять по сайту</h3>
+
+                <div class="footer-navigation__grid">
+                    <nav class="footer-navigation__column">
+                        <a href="#">Услуги</a>
+                        <a href="#">Проекты</a>
+                        <a href="#">О нас</a>
+                        <a href="#">Контакты</a>
+                    </nav>
+
+                    <nav class="footer-navigation__column">
+                        <a href="#">FAQ</a>
+                        <a href="#">Блог</a>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="footer-info">
+
+                <div class="footer-slogan">
+                    <div class="footer-slogan__text">
+                        <span>Работаем с умом</span>
+                        <span>и на совесть</span>
+                    </div>
+
+                    <svg class="footer-slogan__line" viewBox="0 0 270 72" preserveAspectRatio="none" aria-hidden="true">
+                    <path
+                        d="M7 58 C58 44 122 25 263 18"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="3"
+                        stroke-linecap="round"
+                    />
+
+                    <path
+                        d="M24 65 C88 47 161 27 250 23"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.4"
+                        stroke-linecap="round"
+                        opacity=".45"
+                    />
+                </svg>
+                </div>
+
+                <nav class="footer-legal">
+                    <a href="#">Правила cookies</a>
+                    <a href="#">Политика конфиденциальности</a>
+                </nav>
+
+            </div>
+
+            <div class="footer-copyright">
+                DESC Studio © 2023 — <span data-current-year>2026</span>
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.min.js"></script>
+    <script src="./assets/js/main.js?v=8"></script>
+    <script src="./assets/js/navigation.js?v=1"></script>
+</body>
+
+</html>
